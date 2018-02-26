@@ -26,7 +26,7 @@ function arrayToList( array ){
     let result = {};
 
     step(0, result);
-
+    console.log( result )
     return result
     
     function step(i, currObj){
