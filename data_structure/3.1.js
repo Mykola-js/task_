@@ -1,10 +1,13 @@
 
-function range ( arg1, arg2, arg3 ){
+// function range ( arg1, arg2, arg3 ){
 
-   return  arg1.filter( (value) =>{
-        return value >= arg2 && value <= arg3
-    } )  
-}
+//    return  arg1.filter( (value) =>{
+//         return value >= arg2 && value <= arg3
+//     } )  
+// }
+// console.log( range( [2,3,4,5,6,7,8,9,10,1], 3 ,8 ) ) 
+
+// obj to array
 function before ( data ) {
     let array = [ ];
     piker( data );
@@ -18,10 +21,11 @@ function before ( data ) {
         }
 }
 
-// console.log( range( [2,3,4,5,6,7,8,9,10,1], 3 ,8 ) ) 
+
 
 console.log(before(arrayToList([2,3,4,5,6,7,8,9,10,1]) ) );
 
+// array to obj 
 function arrayToList( array ){
     let result = {};
 
